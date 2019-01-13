@@ -68,9 +68,9 @@ public class ProjectTaskController {
         Raport rs = raportService.getRaport();
         if(rs == null){
             Raport r = new Raport();
-            return  new ResponseEntity<String>(r.getRaport(),HttpStatus.OK);
+            return  new ResponseEntity<Raport>(r,HttpStatus.OK);
         }
-        return  new ResponseEntity<String>(rs.getRaport(),HttpStatus.OK);
+        return  new ResponseEntity<Raport>(rs,HttpStatus.OK);
     }
 
     @DeleteMapping("/{ptId}")

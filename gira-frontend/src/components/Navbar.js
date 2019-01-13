@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -10,6 +11,9 @@ export default function Navbar() {
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
             <span className="navbar-toggler-icon" />
         </button>
+        <Link  to="/raport">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Generate raport</button>
+        </Link>
     </div>
 </nav>
   )
