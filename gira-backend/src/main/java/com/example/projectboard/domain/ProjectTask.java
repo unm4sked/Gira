@@ -16,6 +16,7 @@ public class ProjectTask {
     private String summary;
     private String acceptanceCritteria;
     private String status;
+    private String priority;
 
     public ProjectTask(){
 
@@ -51,5 +52,12 @@ public class ProjectTask {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public String getPriority(){
+        return priority;
+    }
+    public void setPriority(String priority){
+        this.priority = priority;
     }
 }

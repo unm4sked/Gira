@@ -1,7 +1,7 @@
 import { GET_PROJECT_TASKS, DELETE_PROJECT_TASK, GET_PROJECT_TASK } from "../actions/types";
 
 const initialState = {
-    project_task: [],
+    project_tasks: [],
     project_task: {}
 }
 

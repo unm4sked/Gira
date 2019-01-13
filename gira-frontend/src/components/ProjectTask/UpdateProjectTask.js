@@ -11,8 +11,9 @@ class UpdateProjectTask extends Component {
         this.state= {
             id: "",
             summary: "",
-            acceptanceCriteria: "",
+            acceptanceCritteria: "",
             status: "",
+            priority: "",
             errors: {}
         };
         this.onChange = this.onChange.bind(this);
@@ -24,7 +25,8 @@ class UpdateProjectTask extends Component {
         const updatedTask = {
             id: this.state.id,
             summary: this.state.summary,
-            acceptanceCriteria: this.state.acceptanceCriteria,
+            acceptanceCritteria: this.state.acceptanceCritteria,
+            priority: this.state.priority,
             status: this.state.status
         };
 
@@ -42,14 +44,16 @@ class UpdateProjectTask extends Component {
         const {
             id,
             summary,
-            acceptanceCriteria,
+            acceptanceCritteria,
+            priority,
             status
         } = nextProps.project_task;
 
         this.setState({
             id,
             summary,
-            acceptanceCriteria,
+            acceptanceCritteria,
+            priority,
             status
         })
     };
@@ -65,7 +69,7 @@ class UpdateProjectTask extends Component {
             <div className="row">
                 <div className="col-md-8 m-auto">
                     <a href="/" className="btn btn-light">
-                    <i class="fas fa-clipboard-list"> Back to Board</i>
+                    <i className="fas fa-clipboard-list"> Back to Board</i>
                     </a>
                     <h4 className="display-4 text-center">Add /Update Project Task</h4>
                     <form onSubmit={this.onSubmit}>
@@ -77,18 +81,26 @@ class UpdateProjectTask extends Component {
                                 <div className="invalid-feedback">{errors.summary}</div>
                             )}
                         </div>
-                        <div class="form-group">
-                            <textarea class="form-control form-control-lg" placeholder="Acceptance Criteria" name="acceptanceCriteria" value={this.state.acceptanceCriteria} onChange={this.onChange}></textarea>
+                        <div className="form-group">
+                            <textarea className="form-control form-control-lg" placeholder="Acceptance Criteria" name="acceptanceCritteria" value={this.state.acceptanceCritteria} onChange={this.onChange}></textarea>
                         </div>
-                        <div class="form-group">
-                            <select class="form-control form-control-lg" name="status" value={this.state.status} onChange={this.onChange}>
+                        <div className="form-group">
+                            <select className="form-control form-control-lg" name="status" value={this.state.status} onChange={this.onChange}>
                                 <option value="">Select Status</option>
                                 <option value="TO_DO">TO DO</option>
                                 <option value="IN_PROGRESS">IN PROGRESS</option>
                                 <option value="DONE">DONE</option>
                             </select>
                         </div>
-                        <input type="submit" class="btn btn-primary btn-block mt-4" />
+                        <div className="form-group">
+                            <select className="form-control form-control-lg" name="priority"  value={this.state.priority}  onChange={this.onChange}>
+                                <option value="">Select priority</option>
+                                <option value="LOW">LOW</option>
+                                <option value="NORMAL">NORMAL</option>
+                                <option value="HIGH">HIGH</option>
+                            </select>
+                        </div>
+                        <input type="submit" className="btn btn-primary btn-block mt-4" />
                     </form>
                 </div>
             </div>

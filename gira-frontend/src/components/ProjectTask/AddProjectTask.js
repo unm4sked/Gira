@@ -12,6 +12,7 @@ class AddProjectTask extends Component {
             summary: "",
             acceptanceCritteria: "",
             status: "",
+            priority: "",
             errors: {}
         };
         this.onChange = this.onChange.bind(this);
@@ -33,7 +34,8 @@ class AddProjectTask extends Component {
         const newProjectTask = {
             summary: this.state.summary,
             acceptanceCritteria: this.state.acceptanceCritteria,
-            status: this.state.status
+            status: this.state.status,
+            priority: this.state.priority
         };
         //console.log(newProjectTask);
         this.props.addProjectTask(newProjectTask,this.props.history);
@@ -46,7 +48,7 @@ class AddProjectTask extends Component {
             <div className="row">
                 <div className="col-md-8 m-auto">
                     <Link to="/" className="btn btn-light">
-                    <i class="fa fa-clipboard-list"> Back to Board</i>
+                    <i className="fa fa-clipboard-list"> Back to Board</i>
                     </Link>
                     <h4 className="display-4 text-center">Add /Update Project Task</h4>
                     <form onSubmit={this.onSubmit}>
@@ -65,6 +67,14 @@ class AddProjectTask extends Component {
                                 <option value="TO_DO">TO DO</option>
                                 <option value="IN_PROGRESS">IN PROGRESS</option>
                                 <option value="DONE">DONE</option>
+                            </select>
+                        </div>
+                        <div className="form-group">
+                            <select className="form-control form-control-lg" name="priority"  value={this.state.priority}  onChange={this.onChange}>
+                                <option value="">Select priority</option>
+                                <option value="LOW">LOW</option>
+                                <option value="NORMAL">NORMAL</option>
+                                <option value="HIGH">HIGH</option>
                             </select>
                         </div>
                         <input type="submit" className="btn btn-primary btn-block mt-4" />

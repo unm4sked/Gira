@@ -1,0 +1,14 @@
+.priority-HIGH {
+    color: red;
+    font-weight: 900;
+}
+
+.priority-LOW {
+    color: blue;
+    font-weight: 900;
+}
+
+.priority-NORMAL {
+    color: green;
+    font-weight: 900;
+}

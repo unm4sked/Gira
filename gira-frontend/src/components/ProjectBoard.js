@@ -14,7 +14,7 @@ class ProjectBoard extends Component {
     render() {
         let {project_tasks} = this.props.project_tasks;
         
-        if(!project_tasks) project_tasks = [];
+        //if(!project_tasks) project_tasks = [];
 
         let BoardContent;
         let todoItems = [];
