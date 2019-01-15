@@ -833,3 +833,113 @@ Done Tasks: 0
 ***INFO***;2019-09-15 12:09:02;Save Project Task ID:null
 ***TRACE***;2019-09-15 12:09:03;GET request
 ***INFO***;2019-09-15 12:09:03;Get all items
+***TRACE***;2019-12-15 12:12:54;GET request
+***INFO***;2019-12-15 12:12:54;Get all items
+***ERROR***;2019-12-15 12:12:57;Error with Deserializing an Object.
+***ERROR***;2019-15-15 12:15:20;Error with Deserializing an Object.
+***ERROR***;2019-15-15 12:15:39;Error with Deserializing an Object.
+***ERROR***;2019-16-15 12:16:04;Error with Deserializing an Object.
+***ERROR***;2019-18-15 12:18:36;Error with Deserializing an Object.
+***ERROR***;2019-20-15 12:20:01;Error with Deserializing an Object.
+***ERROR***;2019-22-15 12:22:44;Error with Deserializing an Object.
+***ERROR***;2019-22-15 12:22:49;Error with Deserializing an Object.
+***ERROR***;2019-23-15 12:23:02;Error with Deserializing an Object.
+***ERROR***;2019-23-15 12:23:20;Error with Deserializing an Object.
+***ERROR***;2019-23-15 12:23:39;Error with Deserializing an Object.
+***ERROR***;2019-24-15 12:24:26;Error with Deserializing an Object.
+***ERROR***;2019-25-15 12:25:11;Error with Deserializing an Object.
+***ERROR***;2019-26-15 12:26:30;Error with Deserializing an Object.
+***TRACE***;2019-27-15 12:27:08;GET request
+***INFO***;2019-27-15 12:27:08;Get all items
+***TRACE***;2019-27-15 12:27:19;GET request
+***INFO***;2019-27-15 12:27:19;Get all items
+***TRACE***;2019-27-15 12:27:23;POST request
+***ERROR***;2019-27-15 12:27:23;Error with Deserializing an Object.
+***INFO***;2019-27-15 12:27:23;Serialized data is saved in <project_directory>./raport.ser
+***TRACE***;2019-27-15 12:27:23;RAPORT: Total tasks: 1
+To do Tasks: 1
+In Progress Tasks: 0
+Done Tasks: 0
+***INFO***;2019-27-15 12:27:23;Save Project Task ID:null
+***TRACE***;2019-27-15 12:27:23;GET request
+***INFO***;2019-27-15 12:27:23;Get all items
+***INFO***;2019-27-15 12:27:24;Serializing an Object status ->OK
+***TRACE***;2019-27-15 12:27:46;GET request
+***INFO***;2019-27-15 12:27:46;Get all items
+***TRACE***;2019-27-15 12:27:54;POST request
+***INFO***;2019-27-15 12:27:54;Serializing an Object status ->OK
+***INFO***;2019-27-15 12:27:54;Serialized data is saved in <project_directory>./raport.ser
+***TRACE***;2019-27-15 12:27:54;RAPORT: Total tasks: 2
+To do Tasks: 1
+In Progress Tasks: 0
+Done Tasks: 1
+***INFO***;2019-27-15 12:27:54;Save Project Task ID:null
+***TRACE***;2019-27-15 12:27:54;GET request
+***INFO***;2019-27-15 12:27:54;Get all items
+***INFO***;2019-27-15 12:27:56;Serializing an Object status ->OK
+***INFO***;2019-28-15 12:28:26;Serializing an Object status ->OK
+***INFO***;2019-29-15 12:29:03;Serializing an Object status ->OK
+***INFO***;2019-29-15 12:29:37;Serializing an Object status ->OK
+***INFO***;2019-29-15 12:29:44;Serializing an Object status ->OK
+***INFO***;2019-29-15 12:29:56;Serializing an Object status ->OK
+***INFO***;2019-31-15 12:31:27;Serializing an Object status ->OK
+***INFO***;2019-32-15 12:32:23;Serializing an Object status ->OK
+***INFO***;2019-33-15 12:33:37;Serializing an Object status ->OK
+***INFO***;2019-33-15 12:33:42;Serializing an Object status ->OK
+***INFO***;2019-33-15 12:33:55;Serializing an Object status ->OK
+***INFO***;2019-34-15 12:34:24;Serializing an Object status ->OK
+***TRACE***;2019-34-15 12:34:51;GET request
+***INFO***;2019-34-15 12:34:51;Get all items
+***INFO***;2019-35-15 12:35:04;Find item by ID:1
+***TRACE***;2019-35-15 12:35:04;GET request
+***TRACE***;2019-35-15 12:35:07;POST request
+***INFO***;2019-35-15 12:35:07;Serializing an Object status ->OK
+***INFO***;2019-35-15 12:35:07;Serialized data is saved in <project_directory>./raport.ser
+***TRACE***;2019-35-15 12:35:07;RAPORT: Total tasks: 3
+To do Tasks: 1
+In Progress Tasks: 0
+Done Tasks: 2
+***INFO***;2019-35-15 12:35:07;Save Project Task ID:1
+***TRACE***;2019-35-15 12:35:07;GET request
+***INFO***;2019-35-15 12:35:07;Get all items
+***INFO***;2019-35-15 12:35:10;Serializing an Object status ->OK
+***INFO***;2019-37-15 12:37:36;Serializing an Object status ->OK
+***INFO***;2019-38-15 12:38:01;Serializing an Object status ->OK
+***TRACE***;2019-38-15 12:38:20;GET request
+***INFO***;2019-38-15 12:38:20;Get all items
+***TRACE***;2019-38-15 12:38:28;POST request
+***INFO***;2019-38-15 12:38:28;Serializing an Object status ->OK
+***INFO***;2019-38-15 12:38:28;Serialized data is saved in <project_directory>./raport.ser
+***TRACE***;2019-38-15 12:38:28;RAPORT: Total tasks: 4
+To do Tasks: 1
+In Progress Tasks: 1
+Done Tasks: 2
+***INFO***;2019-38-15 12:38:28;Save Project Task ID:null
+***TRACE***;2019-38-15 12:38:28;GET request
+***INFO***;2019-38-15 12:38:28;Get all items
+***INFO***;2019-38-15 12:38:31;Serializing an Object status ->OK
+***INFO***;2019-38-15 12:38:55;Serializing an Object status ->OK
+***INFO***;2019-39-15 12:39:59;Serializing an Object status ->OK
+***INFO***;2019-40-15 12:40:12;Serializing an Object status ->OK
+***TRACE***;2019-42-15 12:42:07;GET request
+***INFO***;2019-42-15 12:42:07;Get all items
+***TRACE***;2019-43-15 12:43:04;GET request
+***INFO***;2019-43-15 12:43:04;Get all items
+***INFO***;2019-43-15 12:43:09;Serializing an Object status ->OK
+***TRACE***;2019-43-15 12:43:22;GET request
+***INFO***;2019-43-15 12:43:22;Get all items
+***TRACE***;2019-43-15 12:43:26;GET request
+***INFO***;2019-43-15 12:43:26;Get all items
+***INFO***;2019-43-15 12:43:33;Find item by ID:1
+***INFO***;2019-43-15 12:43:33;Serializing an Object status ->OK
+***INFO***;2019-43-15 12:43:33;Serialized data is saved in <project_directory>./raport.ser
+***INFO***;2019-43-15 12:43:33;Find item by ID:1
+***INFO***;2019-43-15 12:43:33;Delete items ID:1
+***TRACE***;2019-43-15 12:43:34;DELETE request
+***INFO***;2019-43-15 12:43:35;Serializing an Object status ->OK
+***INFO***;2019-44-15 12:44:13;Serializing an Object status ->OK
+***INFO***;2019-44-15 12:44:36;Serializing an Object status ->OK
+***INFO***;2019-44-15 12:44:55;Serializing an Object status ->OK
+***INFO***;2019-49-15 12:49:08;Serializing an Object status ->OK
+***INFO***;2019-49-15 12:49:36;Serializing an Object status ->OK
+***INFO***;2019-49-15 12:49:57;Serializing an Object status ->OK

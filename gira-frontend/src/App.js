@@ -21,7 +21,7 @@ class App extends Component {
             <Route exact path="/addProjectTask" component={AddProjectTask}/>
             <Route exact path="/updateProjectTask/:pt_id" component={UpdateProjectTask}/>
             <Route exact path="/raport" component={Raport}/>
-            <Footer/>
+            {/* <Footer/> */}
           </div>
         </Router>
       </Provider>
