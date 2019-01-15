@@ -821,3 +821,15 @@ Done Tasks: 0
 ***INFO***;2019-15-13 03:15:51;Serializing an Object status ->OK
 ***TRACE***;2019-16-13 03:16:00;GET request
 ***INFO***;2019-16-13 03:16:00;Get all items
+***TRACE***;2019-08-15 12:08:54;GET request
+***INFO***;2019-08-15 12:08:54;Get all items
+***TRACE***;2019-09-15 12:09:02;POST request
+***ERROR***;2019-09-15 12:09:02;Error with Deserializing an Object.
+***INFO***;2019-09-15 12:09:02;Serialized data is saved in <project_directory>./raport.ser
+***TRACE***;2019-09-15 12:09:02;RAPORT: Total tasks: 1
+To do Tasks: 1
+In Progress Tasks: 0
+Done Tasks: 0
+***INFO***;2019-09-15 12:09:02;Save Project Task ID:null
+***TRACE***;2019-09-15 12:09:03;GET request
+***INFO***;2019-09-15 12:09:03;Get all items
