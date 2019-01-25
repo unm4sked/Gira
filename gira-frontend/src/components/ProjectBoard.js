@@ -24,7 +24,7 @@ class ProjectBoard extends Component {
         const BoardAlgorithm = project_tasks => {
             if(project_tasks.length < 1){
                 return (
-                    <div className="alert alert-info text-center" role="alert">
+                    <div className="alert alert-dark text-center" role="alert">
                         No Project Tasks on this board
                     </div>
                 )
@@ -51,7 +51,7 @@ class ProjectBoard extends Component {
                 <div className="row">
                     <div className="col-md-4">
                         <div className="card text-center mb-2">
-                            <div className="card-header bg-secondary text-white">
+                            <div className="card-header bg-danger text-white">
                                 <h3>TO DO</h3>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ class ProjectBoard extends Component {
                     </div>
                     <div className="col-md-4">
                         <div className="card text-center mb-2">
-                            <div className="card-header bg-primary text-white">
+                            <div className="card-header bg-warning text-white">
                                 <h3>In Progress</h3>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ class ProjectBoard extends Component {
         return (
         <div>
             <div className="container">
-                <Link to="/addProjectTask" className="btn btn-primary mb-3">
+                <Link to="/addProjectTask" className="btn btn-dark mb-3">
                     <i className="fas fa-plus-circle"> Create Project Task</i>
                 </Link>
             <br />
